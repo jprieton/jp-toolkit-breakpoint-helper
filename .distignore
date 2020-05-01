@@ -2,6 +2,7 @@ bin
 composer.json
 composer.lock
 nbproject
+package.json
 phpunit.xml.dist
 tests
 .distignore

@@ -42,4 +42,6 @@ if ( version_compare( PHP_VERSION, '7.0', '<' ) ) {
   $notices = new WPTRT\AdminNotices\Notices();
   $notices->add( 'jp-toolkit-breakpoint-helper-php-warning', '', $message, $options );
   $notices->boot();
+} else {
+  new JPToolkit\BreakpointHelper\Init();
 }
