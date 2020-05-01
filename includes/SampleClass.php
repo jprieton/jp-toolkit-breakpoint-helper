@@ -5,7 +5,7 @@
  * and open the template in the editor.
  */
 
-namespace JPToolkit\ExtensionTemplate;
+namespace JPToolkit\BreakpointHelper;
 
 /**
  * Description of SampleClass

@@ -3,7 +3,7 @@
   "type"              : "library",
   "description"       : "A template to develop JP Toolkit extensions",
   "keywords"          : [ "wordpress", "wordpress-development", "wordpress-plugin", "wordpress-theme", "jp-toolkit", "template" ],
-  "homepage"          : "https://github.com/jprieton/jp-toolkit-extension-template/", 
+  "homepage"          : "https://github.com/jprieton/jp-toolkit-breakpoint-helper/", 
   "license"           : "GPL-3.0-or-later",
   "minimum-stability" : "stable",
   "require"           : {
@@ -11,12 +11,12 @@
     "php"                 : ">=7"
   },
   "support"           : {
-    "issues" : "https://github.com/jprieton/jp-toolkit-extension-template/issues",
-    "wiki"   : "https://github.com/jprieton/jp-toolkit-extension-template/wiki"
+    "issues" : "https://github.com/jprieton/jp-toolkit-breakpoint-helper/issues",
+    "wiki"   : "https://github.com/jprieton/jp-toolkit-breakpoint-helper/wiki"
   },  
   "autoload"          : {
     "psr-4" : {
-      "JPToolkit\\ExtensionTemplate\\": "includes/"
+      "JPToolkit\\BreakpointHelper\\": "includes/"
     }
   },
   "require-dev": {

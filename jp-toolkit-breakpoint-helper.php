@@ -1,12 +1,12 @@
 <?php
 /**
- * Plugin Name:   JP Toolkit Extension Template
- * Plugin URI:    https://github.com/jprieton/jp-toolkit-extension-template
+ * Plugin Name:   JP Toolkit Breakpoint Helper
+ * Plugin URI:    https://github.com/jprieton/jp-toolkit-breakpoint-helper
  * Description:   A template to develop JP Toolkit extensions.
  * Version:       1.0.0
  * Author:        Javier Prieto
  * Author URI:    https://github.com/jprieton
- * Text Domain:   jp-toolkit-extension-template
+ * Text Domain:   jp-toolkit-breakpoint-helper
  * Domain Path:   /languages/
  *
  * This program is free software: you can redistribute it and/or modify
@@ -33,13 +33,13 @@ require_once plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
 
 // Check if the minimum requirements are met.
 if ( version_compare( PHP_VERSION, '7.0', '<' ) ) {
-  $message = __( 'JP Toolkit Extension Template requires PHP version 7.0 or later.', 'jp-toolkit-extension-template' );
+  $message = __( 'JP Toolkit Breakpoint Helper requires PHP version 7.0 or later.', 'jp-toolkit-breakpoint-helper' );
   $options = [
       'type' => 'error'
   ];
 
   // Show notice for minimum PHP version required for JP Toolkit HTML helper for WordPress.
   $notices = new WPTRT\AdminNotices\Notices();
-  $notices->add( 'jp-toolkit-extension-template-php-warning', '', $message, $options );
+  $notices->add( 'jp-toolkit-breakpoint-helper-php-warning', '', $message, $options );
   $notices->boot();
 }
